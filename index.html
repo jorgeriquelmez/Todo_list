@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon/icono.png">
+    <title>Todo_List</title>
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-list">
+          <h1>Todo List</h1>
+          <hr>
+          <div class="mb-3">
+              <label for="nueva-tarea" class="form-label">Nueva tarea</label>
+              <div class="input-group">
+                  <input type="text" class="form-control" id="nueva-tarea" placeholder="Ingresa una tarea">
+                  <button class="btn btn-agregar" type="button" id="btn-agregar">Agregar</button>
+              </div>
+          </div>
+          <div class="d-flex justify-content-between">
+              <div>
+                  Total tareas: <span id="total-tareas">0</span><br>
+                  Tareas realizadas: <span id="tareas-realizadas">0</span>
+              </div>
+          </div>
+          <hr>
+          <div id="titulo">
+            <p>ID</p>
+            <p>Tarea</p>
+            <div id="estado">
+              <p>Hecho</p>
+              <p>Quitar</p>
+            </div>
+            
+        </div>
+          <ul class="list-group" id="lista-tareas">
+          </ul>
+      </div>
+  </div>
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/f5bdbb41e0.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+    <script type="module" src="./assets/js/script.js"></script>
+
+
+  </body>
+</html>
+

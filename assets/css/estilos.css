@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  background-color: #f8f9fab2;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.todo-list {
+  background-color: rgba(139, 139, 139, 0.316);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+.input-group button{
+  background-color: #218838;
+  border-color: #28a745;
+}
+
+#lista-tareas {
+  margin-top: 20px;
+}
+#titulo, .box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+#estado, #cajas{
+  display: flex;
+  flex-direction: row;
+}
+#estado p, #flexCheckDefaul{
+  margin: 0 0 0 20px;
+}
+#cruz{
+  margin: 0 15px 0 30px;
+}
+#cruz , #flexCheckDefault{
+  cursor: pointer;
+}
